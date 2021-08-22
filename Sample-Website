@@ -1,0 +1,277 @@
+<!-- HTML Code -->
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>YLFSports</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<!-- Showcase and Navigation -->
+	<div id="showcase">
+		<header>
+			<!-- container -->
+			<nav class="cf">
+				<ul class="cf">
+					<li class="hide-on-small">
+						<a href=" #showcase">YLFSports</a>
+					</li>
+					<li>
+						<a href="#aboutus">About Us</a>
+					</li>
+					<li>
+						<a href="#indoor">Indoor</a>
+					</li>
+					<li>
+						<a href="#outdoor">Outdoor</a>
+					</li>
+					<li>
+						<a href="#history">History</a>
+					</li>
+				</ul>
+				<!-- <a href="#" id="openup">GLSports</a> -->
+			</nav>
+		</header>
+		<div class="section-main container">
+			<h1>YLFSports</h1>
+			<h2 style="color: blue;">Your best place to visualize and enjoy playing different sports.</h2>
+			<p class="lead hide-on-small" style="color:black;">
+				mySports is the best way to organize and 	enjoy the feel of playing and stepping it to the world of virtual sports - and shop for the ones you want. Enjoy all the entertainment provided free and in any plateforms - MAC and Windows.
+			</p>
+		</div>
+	</div>
+<section id="aboutus">
+	<div class="container">
+		<h2 class="section-head">
+			About Us
+		</h2>
+		<h3>45 Million Games. 100,000 Arcade.</h3>
+		<p class="lead">Play over 45 million Games, ad-free and download games and shop to play offline.  </p>
+		<a href="#">Start your trial now.</a>
+	</div>
+</section>
+<section id="indoor">
+	<div class="container">
+		<h2 class="section-head">
+			Indoor
+		</h2>
+		<h3>You can play any indoor game here.</h3>
+		<p class="lead">There are 10 Million games for indoor playing. You can download and shop for ad-free and 		offline playing. 
+		</p>
+		<a href="#">Start Your Free Trial Here.</a>
+	</div>
+</section>
+<section id="outdoor">
+	<div class="container">
+		<h2 class="section-head">
+			Outdoor
+		</h2>
+		<h3>You can play any outdoor game here.</h3>
+		<p class="lead">There are 15 Million games for outdoor playing. You can download and shop for ad-free and 		offline playing.
+		</p>
+		<a href="#">Start Your Free Trial Here.</a>
+	</div>
+</section>
+<section id="history">
+	<div class="container">
+		<h2 class="section-head">
+			History
+		</h2>
+		<h3>You can check the history our website to know the best games availabel for indoor or outdoor playing.
+		</h3>
+		<p class="lead">There are 55 Million games for indoor and outdoor playing. You can download and shop for ad-free and offline playing any of the indoor and outdoor games listed here.
+		</p>
+		<a href="#">Start Your Free Trial Here.</a>
+	</div>
+</section>
+
+	<!-- footer -->
+	<div>
+		<footer class="container"> 
+			<div class="footer-cols">
+				<ul>
+					<li>Shop & Play </li>
+					<li>
+						<a href="#">3D Sports</a>
+					</li>
+					<li>
+						<a href="#">Arcade Games</a>
+					</li>
+					<li>
+						<a href="#">Virtual Reality</a>
+					</li>
+					<li>
+						<a href="#">Merchandise</a>
+					</li>
+					<li>
+						<a href="#">Gift Cards</a>
+					</li>
+				</ul>
+				<ul>
+					<li>YLFSports Store</li>
+					<li>
+						<a href="#">Find a store</a>
+					</li>
+					<li>
+						<a href="#">Today at YLFSports</a>
+					</li>
+					<li>
+						<a href="#">Sports Camp</a>
+					</li>
+					<li>
+						<a href="#">Entertainment</a>
+					</li>
+					<li>
+						<a href="#">Order Sports Items</a>
+					</li>
+				</ul>
+				<ul>
+					<li>Education & Business </li>
+					<li>
+						<a href="#">YLF & Education</a>
+					</li>
+					<li>
+						<a href="#">Shop for Courses</a>
+					</li>
+					<li>
+						<a href="#">YLF & Business</a>
+					</li>
+					<li>
+						<a href="#">Shop for Business</a>
+					</li>
+					<li>
+						<a href="#">Jobs</a>
+					</li>
+				</ul>
+				<ul>
+					<li>About YLF </li>
+					<li>
+						<a href="#">Newsroom</a>
+					</li>
+					<li>
+						<a href="#">YLF Leadership</a>
+					</li>
+					<li>
+						<a href="#">YLF Blogs</a>
+					</li>
+					<li>
+						<a href="#">Events</a>
+					</li>
+					<li>
+						<a href="#">Contact YLF</a>
+					</li>
+				</ul>
+			</div>
+			<div class="footer-bottom text-center">
+				copyright &copy; 2021 Your Learning Plateform
+			</div>
+		</footer>
+	</div>	
+</body>
+</html>
+
+
+<!-- CSS Code -->
+body{
+	font-family:'PT Sans', sans-serif;
+	background-color:#252529;
+	margin: 0;
+	color: #fff; /*white*/
+	line-height: 1.6;
+}
+a{
+	text-decoration: none;
+	color: #ccc;
+}
+#showcase{
+	margin: 0;
+	padding: 0;
+	background: url('Images/Sport.jpg') no-repeat center/cover;
+	width: 100%;
+	height: 100vh;
+	position: relative;
+	overflow-y: hidden;
+	/*margin-top: 25vh;*/
+	filter: brightness(1.0);
+}
+#showcase .container{
+	margin-top: 25vh;
+}
+#showcase h1{
+	font-size: 4rem;
+	color:green;
+	margin-bottom: 0;
+}
+/*.section-main .container h2{
+	color: black;
+	font-weight: bold;
+	font-size: 2rem;
+	filter: brightness(1.0);
+	filter: saturate(100%);*/
+}
+
+se{
+	text-align: center;
+	font-style: bold;
+}
+nav	{
+	height: 40px;
+	width: 100%;
+	background-color: #333;
+	color: rgb(51, 34, 34);
+	position: fixed;
+}
+nav	ul{
+	padding: 0;
+	margin: 0;
+}
+
+nav li{
+	display: inline;
+	float: left;
+}
+nav	a{
+	display: inline-block;
+	width: 100px;
+	text-align: center;
+	text-decoration: none;
+	padding: 10px 0px;
+	color: yellow;
+}
+
+nav li:hover{
+	background-color:green;
+}
+.container{
+	max-width: 1100px;
+	text-align: center;
+	margin: 0 auto;
+	padding: 0 3rem;
+ kjhg 
+.lead{
+	font-size: 1.3rem;
+}
+footer .footer-cols{
+	display: grid;
+	grid-gap: 20px;
+	grid-template-columns:repeat(4, 1fr);
+	padding: 2rem;
+	text-align: left;
+	font-size: 14px;
+}
+footer .footer-cols ul{
+	list-style-type: none;
+}
+
+footer .footer-cols ul li:first-child{
+	font-size: 1.2rem;
+	padding-bottom: 0.5rem;
+	border-bottom: grey solid 1px;
+	margin-bottom: 1rem;
+}
+footer .footer-bottom{
+	background-color: #333;
+	padding: 1rem;
+	text-align: center;
+}
+ 
